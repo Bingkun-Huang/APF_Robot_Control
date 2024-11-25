@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/apf_trajectory.dir/src/apf_trajectory.cpp.o -o apf_trajectory   -L/home/bingkun/Downloads/mujoco200_linux/bin  -Wl,-rpath,/home/bingkun/Downloads/mujoco200_linux/bin -lmujoco200 -lGLEW -lglfw -lGL -ldl -lpthread -lX11 

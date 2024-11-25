@@ -1,0 +1,5 @@
+<mujoco model="combined_model">
+    <include file="/home/bingkun/HIWI_Huang/build/output_trajectory.xml"/>
+    <include file="/home/bingkun/Downloads/franka_emika_panda/mjx_panda.xml"/>
+</mujoco>
+

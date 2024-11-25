@@ -1,0 +1,138 @@
+Sat Nov 23 23:32:46 2024
+WARNING: mju_openResource: unknown file './home/bingkun/HIWI_Huang/model/robot_obstacle.xml'
+
+Sat Nov 23 23:34:34 2024
+ERROR: an OpenGL platform library has not been loaded into this process, this most likely means that a valid OpenGL context has not been created before mjr_makeContext was called
+
+Sun Nov 24 00:25:09 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 00:27:20 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 00:28:36 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 00:31:18 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 00:45:25 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 00:49:38 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 00:50:10 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 10:53:08 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:01:52 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:02:22 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:10:09 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:11:02 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:14:15 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:14:36 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:15:25 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:16:11 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:21:53 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:25:57 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:30:22 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:33:15 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:33:31 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 11:35:00 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:25:21 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:30:55 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:34:20 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:37:57 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:41:04 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:49:18 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:50:45 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 12:52:19 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 13:09:33 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 14:04:08 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 14:08:21 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 14:38:20 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 15:29:56 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 15:42:00 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 15:57:58 2024
+ERROR: OpenGL ARB_framebuffer_object required
+
+Sun Nov 24 16:29:22 2024
+WARNING: mju_openResource: unknown file '/home/bingkun/HIWI_Huang/model/robott_obstacle.xml'
+
+Sun Nov 24 16:30:41 2024
+ERROR: an OpenGL platform library has not been loaded into this process, this most likely means that a valid OpenGL context has not been created before mjr_makeContext was called
+
+Mon Nov 25 01:09:37 2024
+WARNING: Pre-allocated visual geom buffer is full. Increase maxgeom above 1000. Time = 0.0000.
+
+Mon Nov 25 01:09:46 2024
+WARNING: Pre-allocated visual geom buffer is full. Increase maxgeom above 1000. Time = 0.0000.
+
+Mon Nov 25 01:11:06 2024
+WARNING: Pre-allocated visual geom buffer is full. Increase maxgeom above 100. Time = 0.0000.
+
+Mon Nov 25 01:11:41 2024
+WARNING: Pre-allocated visual geom buffer is full. Increase maxgeom above 100. Time = 0.0000.
+
+Mon Nov 25 14:53:50 2024
+WARNING: Pre-allocated visual geom buffer is full. Increase maxgeom above 100. Time = 0.0000.
+
