@@ -1,5 +1,6 @@
 
-## Overview, we have two tasks：(visualisation in a simulated environment MuJoCo)
+# Artifical potential fields (APF) +  MuJoCo Simulation
+
  ## 1. Using the method APF to create a trajectory for avoiding the obstacle 
  (https://journals.sagepub.com/doi/abs/10.1177/027836498600500106)
 
