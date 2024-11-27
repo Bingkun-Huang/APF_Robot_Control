@@ -1,6 +1,6 @@
 
 # Artifical potential fields (APF) +  MuJoCo Simulation
-![Demo Video](video/demo.mp4)
+![Demo Video](video/demo.mov)
 
  ## 1. Using the method APF to create a trajectory for avoiding the obstacle 
  (https://journals.sagepub.com/doi/abs/10.1177/027836498600500106)
