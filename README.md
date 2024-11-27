@@ -38,17 +38,21 @@ In `src/traj_to_XML.cpp`, we convert the generated trajectory into an `XML` file
 
 ## 3. Tracking the previous generating trajectory using the following control methods (Joint positions by integrating the velocities)
 
-#### In `scripts/track_robot.py`, we import the `XML` model from the previous step to make the robot move along the generated trajectory.
+#### In `scripts/diffik_nullspace.py`, we import the `XML` model from the previous step to make the robot move along the generated trajectory.
 
 (1) We use the `Pinocchio Robotics library` to compute forward kinematics and the Jacobian matrix. For this step w have to use `Panda' [URDF](https://github.com/StanfordASL/PandaRobot.jl) and give the urdf to the Pinocchio for initializing kinematic model (Jacobian)
 
-(2) We use the following control law:
+(2) We use the following control law: [Control](https://github.com/kevinzakka/mjctrl/blob/main/README.md)
 
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/afc44c9b-881e-471b-90f6-46fd1e79d089">
 
 We import the control input command and use this method to obtain the robot arm's `joint velocities`, and then get the `joint positions` by integrating the velocities. 
 
 (3) Then, we solve the forward kinematics problem using `Pinocchio` and update the current position in `MuJoCo`.
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/96546975-713a-499e-90fe-a6f98740ec60">
 
+## 4. Some Aussumptions 
 
+(1) Although the trajectory obtained using APF allows the robot arm's end effector to avoid obstacles, in some cases, other parts of the robot may still collide. To address this issue, we can use solutions like collision avoidance in `MoveIt` to prevent collisions between different parts of the robot.
 
+(2) In addition to this control method, I also tried using the `KDL solver` to compute the inverse kinematics results and simulate them in MuJoCo. However, we were unable to control the orientation. 
