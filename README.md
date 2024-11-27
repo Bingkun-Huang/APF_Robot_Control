@@ -48,13 +48,22 @@ In `src/traj_to_XML.cpp`, we convert the generated trajectory into an `XML` file
 
 We import the control input command and use this method to obtain the robot arm's `joint velocities`, and then get the `joint positions` by integrating the velocities. 
 
-(3) Then, we solve the forward kinematics problem using `Pinocchio` and update the current position in `MuJoCo`.
+(3) Then, we solve the forward kinematics problem using `Pinocchio` and update the current position in `MuJoCo`. 
+
+Using the output trajectorys (desired and actual) we can see the performance of the system.
+
 <img width="375" alt="image" src="https://github.com/user-attachments/assets/96546975-713a-499e-90fe-a6f98740ec60">
 
 ## 4. Some Aussumptions 
 
-(1) Although the trajectory obtained using APF allows the robot arm's end effector to avoid obstacles, in some cases, other parts of the robot may still collide. To address this issue, we can use solutions like collision avoidance in `MoveIt` to prevent collisions between different parts of the robot.
+(1) Although the trajectory obtained using APF allows the robot arm's end effector to avoid obstacles, in some cases, other parts of the robot may still collide. To address this issue, we can use solutions like collision avoidance in `MoveIt` to prevent collisions between different parts of the robot. 
 
-(2) In addition to this control method, I also tried using the `KDL solver` to compute the inverse kinematics results and simulate them in MuJoCo. However, we were unable to control the orientation. 
+(2) In addition to this control method, I also tried using the `KDL solver` in `scripts/track_robot.py` to compute the inverse kinematics results and simulate them in MuJoCo. However, we were unable to control the orientation. So in this method the movement is not smoothly.
 
-![Demo Video](video/KDL.mov)
+![Demo Video](images/KDL.gif)
+
+(3) If our desired trajectory is outside the robot arm's reachable workspace, an error will occur. Therefore, we need to ensure that the target point is within the reachable workspace of the robot.
+
+<img width="308" alt="image" src="https://github.com/user-attachments/assets/bf39064b-1605-4b7f-bdef-20d7b084c03d">
+
+
