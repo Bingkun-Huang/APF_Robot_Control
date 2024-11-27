@@ -1,0 +1,5 @@
+<mujoco model="combined_model">
+    <include file="/home/bingkun/HIWI_Huang/build/output_trajectory.xml"/>
+    <include file="/home/bingkun/HIWI_Huang/model/mjctrl-main/franka_emika_panda/hand.xml>
+</mujoco>
+
