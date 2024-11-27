@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bingkun/Downloads/mujoco200_linux/include -I/usr/include/GL
+CXX_INCLUDES = -I/home/bingkun/Downloads/mujoco2_3.2.5/include -I/usr/include/GL
 
 CXX_FLAGS = -std=gnu++17
 

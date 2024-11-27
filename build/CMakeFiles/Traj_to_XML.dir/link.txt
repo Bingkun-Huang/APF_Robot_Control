@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Traj_to_XML.dir/src/traj_to_XML.cpp.o -o Traj_to_XML   -L/home/bingkun/Downloads/mujoco200_linux/bin 
+/usr/bin/c++ CMakeFiles/Traj_to_XML.dir/src/traj_to_XML.cpp.o -o Traj_to_XML   -L/home/bingkun/Downloads/mujoco2_3.2.5/bin 
