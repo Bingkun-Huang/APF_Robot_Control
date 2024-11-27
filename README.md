@@ -1,8 +1,10 @@
 
 # Artifical potential fields (APF) +  MuJoCo Simulation
-![Demo Video](video/demo.mov)
+Simulation Video:
 
- ## 1. Using the method APF to create a trajectory for avoiding the obstacle 
+![Demo](video/demo.mov)
+
+ ## 1. Using the method APF to create a trajectory for avoiding the obstacle
  (https://journals.sagepub.com/doi/abs/10.1177/027836498600500106)
 
 <img width="337" alt="image" src="https://github.com/user-attachments/assets/c4acbd23-7137-4f17-ab2d-9a15977ebb6f">
@@ -66,4 +68,8 @@ Using the output trajectorys (desired and actual) we can see the performance of 
 
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/bf39064b-1605-4b7f-bdef-20d7b084c03d">
 
+## 5. Time Spending 
+
+3 nights 24-25-27.
+Also several hours in the additional part of 4(2). There were some bus, and fortunely all these bus semm to be resolved :)
 
