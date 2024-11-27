@@ -56,3 +56,5 @@ We import the control input command and use this method to obtain the robot arm'
 (1) Although the trajectory obtained using APF allows the robot arm's end effector to avoid obstacles, in some cases, other parts of the robot may still collide. To address this issue, we can use solutions like collision avoidance in `MoveIt` to prevent collisions between different parts of the robot.
 
 (2) In addition to this control method, I also tried using the `KDL solver` to compute the inverse kinematics results and simulate them in MuJoCo. However, we were unable to control the orientation. 
+
+![Demo Video](video/KDL.mov)
