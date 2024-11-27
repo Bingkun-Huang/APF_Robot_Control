@@ -2,7 +2,7 @@
 # Artifical potential fields (APF) +  MuJoCo Simulation
 Simulation Video:
 
-![Demo](video/demo.mov)
+![GIF](images/video.gif)
 
  ## 1. Using the method APF to create a trajectory for avoiding the obstacle
  (https://journals.sagepub.com/doi/abs/10.1177/027836498600500106)
@@ -55,6 +55,8 @@ We import the control input command and use this method to obtain the robot arm'
 Using the output trajectorys (desired and actual) we can see the performance of the system.
 
 <img width="375" alt="image" src="https://github.com/user-attachments/assets/96546975-713a-499e-90fe-a6f98740ec60">
+
+![Demo](video/demo.mov)
 
 ## 4. Some Aussumptions 
 
