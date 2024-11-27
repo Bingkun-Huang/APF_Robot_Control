@@ -58,7 +58,7 @@ Using the output trajectorys (desired and actual) we can see the performance of 
 
 ## 4. Some Aussumptions 
 
-(1) Although the trajectory obtained using APF allows the robot arm's end effector to avoid obstacles, in some cases, other parts of the robot may still collide. To address this issue, we can use solutions like collision avoidance in `MoveIt` to prevent collisions between different parts of the robot. 
+(1) Although the trajectory using APF allows the robot arm's end effector to avoid obstacles, however, in some cases, other parts of the robot may still collide. To address this issue, we can use solutions like collision avoidance in package `MoveIt` to prevent collisions between different parts of the robot. 
 
 (2) In addition to this control method, I also tried using the `KDL solver` in `scripts/track_robot.py` to compute the inverse kinematics results and simulate them in MuJoCo. However, we were unable to control the orientation. So in this method the movement is not smoothly.
 
@@ -71,5 +71,5 @@ Using the output trajectorys (desired and actual) we can see the performance of 
 ## 5. Time Spending 
 
 3 nights 24-25-27.
-Also several hours in the additional part of 4(2). There were some bus, and fortunely all these bus semm to be resolved :)
+Also several hours in the additional part of 4(2). There were some bus, and fortunely all these bugs semm to be resolved :)
 
